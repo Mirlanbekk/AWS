@@ -75,7 +75,7 @@ Resources:
             systemctl enable httpd
             mkdir /var/www/html/hello
             touch /var/www/html/hello/index.html
-            echo "hello world from 2, " >> /var/www/html/hello/index.html 
+            echo "hello world from 2 , " >> /var/www/html/hello/index.html 
             curl checkip.amazonaws.com >> /var/www/html/hello/index.html
       Tags:
         - Key: Name
